@@ -6,7 +6,6 @@ function setup() {
     // Set the background color to green
     background(255);
     
-    
     fill(255, 0, 0, 75); // red circle
     ellipse(100, 70, 90, 90); 
     
