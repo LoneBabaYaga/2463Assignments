@@ -6,8 +6,8 @@ function setup() {
 
 function draw() {
   background(0, 255, 0);
-  ellipse(80,80,125,125);
-  rect(160,20, 125, 125);
+  ellipse(80,80,125,125); // circle
+  rect(160,20, 125, 125); // rectangle
   
 }
 
