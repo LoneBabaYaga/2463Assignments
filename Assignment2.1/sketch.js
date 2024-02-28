@@ -98,6 +98,7 @@ function draw() {
 
   }
 
+
   // draw the sample buttons
   for ( let button of sampleButtons ) {
     drawButton( button );
