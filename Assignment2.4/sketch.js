@@ -137,6 +137,8 @@ function setup() {
 
   music.player("main").volume.value = -6;
   music.player("main").loop = true;
+  music.player("main").loopStart = 4.4;
+  music.player("main").loopEnd = 6.0;
   music.player("main").autostart = true;
 
   // create an array of bugs with random position and heading
@@ -249,7 +251,7 @@ function mousePressed() {
         missed = false;
         speed += SPEED_INCREMENT;
         bug.draw();
-        music.player("main").playbackRate = Math.pow( speed / INITIAL_SPEED, 0.14 );
+        music.player("main").playbackRate = Math.pow( speed / INITIAL_SPEED, 0.50 );
     }
   }
 
