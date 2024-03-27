@@ -249,6 +249,7 @@ function mousePressed() {
         missed = false;
         speed += SPEED_INCREMENT;
         bug.draw();
+        music.player("main").playbackRate = Math.pow( speed / INITIAL_SPEED, 0.14 );
     }
   }
 
